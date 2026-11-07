@@ -1,0 +1,12 @@
+[build]
+  command = "pnpm build"
+  publish = "dist"
+  edge_functions = "netlify/edge-functions"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[[redirects]]
+  from = "/index.html"
+  to = "/"
+  status = 301
