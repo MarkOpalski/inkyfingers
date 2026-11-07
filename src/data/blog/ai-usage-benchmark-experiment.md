@@ -4,8 +4,8 @@ pubDatetime: 2026-08-27T00:00:00Z
 title: The AI Usage Benchmark Experiment
 draft: false
 tags:
-- ai-research
-- human-factors
+  - ai-research
+  - human-factors
 description: A short, copy-pasteable prompt for benchmarking your own AI usage against U.S. and global norms, plus what running it on myself actually turned up.
 ---
 
@@ -55,4 +55,4 @@ Understanding how you use AI, compared against real behavioral categories, can s
 
 If you run this prompt, I'd like to know what kind of user you turned out to be — I'm collecting patterns for a follow-up piece on human-AI use cases.
 
-*Originally published on my [Substack](https://substack.com/@markopalski), June 2025.*
+_Originally published on my [Substack](https://substack.com/@markopalski), June 2025._

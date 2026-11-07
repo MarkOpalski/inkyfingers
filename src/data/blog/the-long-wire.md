@@ -4,11 +4,11 @@ pubDatetime: 2026-08-26T00:00:00Z
 title: The Long Wire
 draft: false
 tags:
-- bell-labs
-- human-factors
-- systems-design
-- computing-history
-- mobile-devices
+  - bell-labs
+  - human-factors
+  - systems-design
+  - computing-history
+  - mobile-devices
 description: From Morse's telegraph to Shannon's logic, Turing's machine, and Bell Labs' first human factors department, this is the story of how digital communication was built by ideas that arrived too early, failed, and got carried forward by the people who believed in them anyway.
 ---
 

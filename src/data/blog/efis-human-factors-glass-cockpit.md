@@ -4,9 +4,9 @@ pubDatetime: 2026-08-11T00:00:00Z
 title: The Glass Cockpit as a Human Factors Case Study
 draft: false
 tags:
-- human-factors
-- aviation
-- safety-critical-systems
+  - human-factors
+  - aviation
+  - safety-critical-systems
 description: Electronic flight instrument systems didn't just digitize the cockpit. They replaced a monitoring model built on mechanical failure with one built on data validity, and every design decision inside that replacement is a human factors decision.
 ---
 
@@ -22,7 +22,7 @@ That's the systems description. The interesting part is what changed underneath 
 
 Traditional electromechanical displays used synchro mechanisms to transmit each instrument's actual pitch, roll, and heading to a comparator, which flagged excessive disagreement between the captain's and first officer's instruments. A fault as far downstream as a jammed roll mechanism would still trigger a warning, because the comparator checked the physical output, not the input.
 
-An electronic display can't be checked that way. There's no mechanical output to re-transmit, so a wrong pixel and a correct pixel look identical to any system watching from outside the screen. EFIS solved this by moving the monitoring function upstream, into the symbol generator that drives the display, and duplicating it. Each symbol generator runs two channels: an internal channel that recomputes what the display should be showing from the same sensor inputs and flags any mismatch, and an external channel that performs the identical check on the *other* side of the flight deck, so the captain's symbol generator checks the first officer's and vice versa. Whichever one detects a fault posts the warning on its own display.
+An electronic display can't be checked that way. There's no mechanical output to re-transmit, so a wrong pixel and a correct pixel look identical to any system watching from outside the screen. EFIS solved this by moving the monitoring function upstream, into the symbol generator that drives the display, and duplicating it. Each symbol generator runs two channels: an internal channel that recomputes what the display should be showing from the same sensor inputs and flags any mismatch, and an external channel that performs the identical check on the _other_ side of the flight deck, so the captain's symbol generator checks the first officer's and vice versa. Whichever one detects a fault posts the warning on its own display.
 
 This is a clean example of a rule that generalizes past aviation: when you replace a mechanism whose failures are physically visible with one whose failures are computationally invisible, you don't get to keep the old monitoring strategy. You have to build a new one that checks the computation itself, from at least two independent vantage points, because a system is not allowed to be the sole judge of its own correctness.
 
@@ -46,4 +46,4 @@ EFIS is a useful case study precisely because none of its constraints were arbit
 
 ## Source
 
-This piece draws on and substantially rewrites the factual content of the Wikipedia article ["Electronic flight instrument system"](https://en.wikipedia.org/wiki/Electronic_flight_instrument_system), used under CC BY-SA 4.0, with additional framing and analysis original to this post. See also FAA Advisory Circular AC 25-11A, *Electronic Flight Deck Displays*.
+This piece draws on and substantially rewrites the factual content of the Wikipedia article ["Electronic flight instrument system"](https://en.wikipedia.org/wiki/Electronic_flight_instrument_system), used under CC BY-SA 4.0, with additional framing and analysis original to this post. See also FAA Advisory Circular AC 25-11A, _Electronic Flight Deck Displays_.

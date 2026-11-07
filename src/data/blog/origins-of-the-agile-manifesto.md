@@ -4,9 +4,9 @@ pubDatetime: 2026-07-28T00:00:00Z
 title: Origins of the Agile Manifesto
 draft: false
 tags:
-- computing-history
-- systems-design
-- process-design
+  - computing-history
+  - systems-design
+  - process-design
 description: How seventeen competing methodologists converged on four values at a Utah ski lodge in 2001, and which specific problems in waterfall development each value was built to fix.
 ---
 
@@ -31,7 +31,7 @@ In February 2001, seventeen software methodologists met at the Snowbird ski reso
 - **Mike Beedle** — an early Scrum adopter blending Scrum and XP practices in the field.
 - **Ward Cunningham** — an XP pioneer known for his work on patterns and wikis.
 - **Martin Fowler** — design expert and author who argued for fitting methodology to people rather than the reverse.
-- **Andrew Hunt and Dave Thomas** — authors of *The Pragmatic Programmer*.
+- **Andrew Hunt and Dave Thomas** — authors of _The Pragmatic Programmer_.
 - **Ron Jeffries** — the first full-time XP coach.
 - **Brian Marick** — a testing expert who framed a project as an ongoing conversation about quality.
 - **Arie van Bennekum** — co-founder of the Dynamic Systems Development Method (DSDM) Consortium.
@@ -69,10 +69,10 @@ They met at Snowbird's Aspen Room, February 11–13, 2001, in an informal atmosp
 
 ## Sources
 
-1. Highsmith, J. et al., *History: The Agile Manifesto* (agilemanifesto.org)
-2. Martin, R.C. (ed.), *Agile Manifesto Signatories Biography* (agilemanifesto.org)
-3. Castillo, M. (2017), "Agile Software Development: A History," *The Atlantic*
+1. Highsmith, J. et al., _History: The Agile Manifesto_ (agilemanifesto.org)
+2. Martin, R.C. (ed.), _Agile Manifesto Signatories Biography_ (agilemanifesto.org)
+3. Castillo, M. (2017), "Agile Software Development: A History," _The Atlantic_
 4. Boyce, R. (2024), "The day Agile came to town: Remembering Utah's Agile Manifesto," KSL.com
-5. Larman, C. and Basili, V. (2003), "Iterative and Incremental Development: A Brief History," *IEEE Computer*
+5. Larman, C. and Basili, V. (2003), "Iterative and Incremental Development: A Brief History," _IEEE Computer_
 6. Fowler, M. (2005), "Agile versus Lean," martinfowler.com
-7. Beck, K. et al. (2001), *Manifesto for Agile Software Development* (agilemanifesto.org/principles)
+7. Beck, K. et al. (2001), _Manifesto for Agile Software Development_ (agilemanifesto.org/principles)

@@ -4,9 +4,9 @@ pubDatetime: 2026-07-14T00:00:00Z
 title: The File Extension Is a 1974 Performance Hack That Became a Security Hole
 draft: false
 tags:
-- computing-history
-- systems-design
-- human-factors
+  - computing-history
+  - systems-design
+  - human-factors
 description: How a 1970s disk-seek optimization in CP/M hardened into DOS and Windows load-bearing logic, then into a 25-year-later exploit vector. A short case study in how engineering tradeoffs outlive the constraints that justified them.
 ---
 

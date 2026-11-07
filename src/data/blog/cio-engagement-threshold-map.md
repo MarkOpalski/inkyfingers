@@ -4,10 +4,10 @@ pubDatetime: 2026-08-25T00:00:00Z
 title: Applying the Fogg Behavior Model to CIO Engagement
 draft: false
 tags:
-- human-factors
-- behavior-design
-- cio-advisory
-description: 'B = MAP: behavior only occurs when motivation and ability clear a threshold at the exact moment a prompt arrives. Plotted against four CIO advisory jobs to be done, the model tells you what kind of prompt each one actually needs.'
+  - human-factors
+  - behavior-design
+  - cio-advisory
+description: "B = MAP: behavior only occurs when motivation and ability clear a threshold at the exact moment a prompt arrives. Plotted against four CIO advisory jobs to be done, the model tells you what kind of prompt each one actually needs."
 ---
 
 <p>BJ Fogg's behavior model states a simple condition: a behavior occurs only when motivation, ability, and a prompt converge at the same moment, formalized as <strong>B&nbsp;=&nbsp;MAP</strong>. Below a threshold curve that trades motivation for ability, no prompt will trigger the behavior no matter how well-timed it is. Above the curve, the right prompt does the rest.</p>

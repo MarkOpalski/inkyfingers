@@ -4,15 +4,15 @@ pubDatetime: 2026-08-26T00:00:00Z
 title: What Don Norman Named, and What AI Makes Non-Negotiable
 draft: false
 tags:
-- human-factors
-- usability-research
-- ai-research
+  - human-factors
+  - usability-research
+  - ai-research
 description: Don Norman's 1988 claim that usability failures are diagnosable, not user failings, was a methodological argument, not a design preference. AI doesn't change that diagnosis. It changes the speed, scale, and opacity at which ignoring it becomes dangerous.
 ---
 
 In 1988, Don Norman wrote a sentence that human factors practitioners have been quietly repeating ever since: when a person struggles to use something, the fault sits with the design, not the user. It read at the time as a reframe of blame. It was actually a methodological claim. Norman was arguing that usability failures are measurable, diagnosable, and traceable to specific design decisions — not vague deficits in the person holding the device.
 
-That claim only holds if someone is willing to look. Norman's entire body of work, from *The Psychology of Everyday Things* through the multiple editions of *The Design of Everyday Things*, is a record of what happens when organizations build for what is easy to measure rather than for how people actually think, decide, and coordinate. The gap between those two things is not new. It has existed since the first mainframe operator was blamed for a system's opaque error state. What has changed is the cost of ignoring it.
+That claim only holds if someone is willing to look. Norman's entire body of work, from _The Psychology of Everyday Things_ through the multiple editions of _The Design of Everyday Things_, is a record of what happens when organizations build for what is easy to measure rather than for how people actually think, decide, and coordinate. The gap between those two things is not new. It has existed since the first mainframe operator was blamed for a system's opaque error state. What has changed is the cost of ignoring it.
 
 ## The diagnosis has not changed
 
