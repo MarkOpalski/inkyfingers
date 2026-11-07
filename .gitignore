@@ -26,3 +26,5 @@ pnpm-debug.log*
 # pagefind
 
 public/pagefind
+# Retired Python build kept for reference, not part of the project
+_trash-old-build/
